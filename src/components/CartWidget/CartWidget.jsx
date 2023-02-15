@@ -1,15 +1,8 @@
-import React from "react";
-
-const CartWidget = ({ cantCarrito }) => {
+export const CartWidget = ({cantCarrito}) => {
   return (
-    <>
-      <button className="btn btn-light">
-        <i className="bi bi-cart">
-          <p>{cantCarrito}</p>
-        </i>
-      </button>
-    </>
-  );
-};
-
-export default CartWidget;
+      <>
+        <button className="btn btn-dark">Carrito</button>
+        <p>{cantCarrito}</p>
+      </>
+  )
+}
